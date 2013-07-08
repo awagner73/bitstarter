@@ -6,7 +6,6 @@ var app = express.createServer(express.logger());
 app.get('/', function(request, response) {
 	var indexFileBuffer = fs.readFileSync('index.html');
 	
-	//response.send('Hello World 2!');
 	response.send(indexFileBuffer.toString());
 });
 

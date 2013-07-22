@@ -100,6 +100,7 @@
         }
 
         .navbar-inverse .brand {
+            font-weight: bold;
             color: #468847;
         }
     </style>
@@ -145,12 +146,12 @@
         <div class="span12">
             <!-- Special typography from Bootstrap for lead paragraph. -->
             <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-            <p class="lead">We are going to ???? and have some free seats</p>
+            <p class="lead">We are [going|flaying|sailing] to ???? and have some free seats</p>
         </div>
     </div>
     <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-            <img class="img-polaroid" src="http://placehold.it/480x300&text=pic+of+a+car+with+free+seats">
+            <img class="img-polaroid" src="img/car.png">
         </div>
 
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
@@ -205,7 +206,7 @@
     <!-- http://placehold.it -->
     <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-            <img class="img-polaroid" src="http://placehold.it/480x300&text=pic+of+a+plane">
+            <img class="img-polaroid" src="img/jet.png">
         </div>
         <div class="span5 copy">
             <p>
@@ -241,9 +242,11 @@
             </p>
         </div>
         <div class="span5 asset">
-            <img class="img-polaroid" src="http://placehold.it/480x300&text=pic+of+a+boat">
+            <img class="img-polaroid" src="img/boat.png">
         </div>
     </div>
+
+
 
     <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
     <!-- This brings in jquery.js and bootstrap.js as dependencies. -->
@@ -256,12 +259,12 @@
                     <div class="accordion-heading">
                         <a class="accordion-toggle" data-toggle="collapse"
                            data-parent="#accordion2" href="#collapseOne">
-                            What does FAQ stand for?
+                            justComeWithUs? What the heck?
                         </a>
                     </div>
                     <div id="collapseOne" class="accordion-body collapse">
                         <div class="accordion-inner">
-                            Frequently Asked Question.
+                            justComeWithUs is a seat-sharing platform.
                         </div>
                     </div>
                 </div>
@@ -269,12 +272,28 @@
                     <div class="accordion-heading">
                         <a class="accordion-toggle" data-toggle="collapse"
                            data-parent="#accordion2" href="#collapseTwo">
-                            What's a Frequently Asked Question?
+                            Seat-sharing? What does that mean?
                         </a>
                     </div>
                     <div id="collapseTwo" class="accordion-body collapse">
                         <div class="accordion-inner">
-                            A question which is commonly asked by users.
+                           That's easy.<br>Imagine, You are driving from Somecity to Elsecity by car and You have 3 seats left.
+                           Why don't You ask somebody to come with You and pay some fuel money (bitcoins).
+                        </div>
+                    </div>
+                </div><div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse"
+                           data-parent="#accordion2" href="#collapseThree">
+                            Thats all?
+                        </a>
+                    </div>
+                    <div id="collapseThree" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            Of course not.<br>
+                            Imagine you're flying with your jet from New York to Hawaii and still have seats available? Maybe someone wants to fly with.<br>
+                            Or you sail from Scotland to Oslo and have 1 or 2 bunks free?<br>
+                            Maybe someone hires and pays for Bitcoins single pair port charges
                         </div>
                     </div>
                 </div>

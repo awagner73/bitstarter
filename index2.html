@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Bitstarter - justComeWithUs.....</title>
+    <title>My First Bitstarter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
@@ -98,16 +98,6 @@
         .footer a {
             color: #ccccff;
         }
-
-        .navbar-inverse .brand {
-            font-weight: bold;
-            color: #468847;
-        }
-        /* http://support.addthis.com/customer/portal/questions/1136093-share-buttons-in-center-position */
-        div.addthis_toolbox {
-            width:180px;
-            margin: 0 auto;
-        }
     </style>
 </head>
 <body>
@@ -123,13 +113,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="#">justComeWithUs</a>
+            <a class="brand" href="#">Bitstarter</a>
             <div class="nav-collapse collapse">
                 <ul class="nav">
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="#faq">FAQ</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
@@ -145,79 +134,72 @@
     <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
     <div class="row-fluid heading">
         <div class="span12">
-            <h1>justComeWithUs</h1>
+            <h1>Product: Development Version</h1>
         </div>
     </div>
     <div class="row-fluid subheading">
         <div class="span12">
             <!-- Special typography from Bootstrap for lead paragraph. -->
             <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-            <p class="lead">We are [going|flaying|sailing] to ???? and have some free seats</p>
+            <p class="lead">One sentence description.</p>
         </div>
     </div>
     <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-            <img class="img-polaroid" alt="car-placeholder" src="img/car.png">
+            <img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300">
         </div>
 
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
         <div class="span5 actions">
             <div class="row-fluid">
-            <div class="span8 offset2">
+                <div class="span8 offset2">
                     <div class="row-fluid statistics">
-                    <div class="span4">
-                        <!-- linediv-l and linediv-r give dividing lines that look
-                        different in horizontal and vertical layouts, illustrating
-                        media queries. -->
-                        <div class="linediv-l">
-                            <h3>1000</h3> <p>backers</p>
+                        <div class="span4">
+                            <!-- linediv-l and linediv-r give dividing lines that look
+                            different in horizontal and vertical layouts, illustrating
+                            media queries. -->
+                            <div class="linediv-l">
+                                <h3>1000</h3> <p>backers</p>
+                            </div>
+                        </div>
+                        <div class="span4">
+                            <div class="linediv-c">
+                                <h3>$6000</h3> <p>of $10,000</p>
+                            </div>
+                        </div>
+                        <div class="span4">
+                            <div class="linediv-r">
+                                <h3>10</h3> <p>days left</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="span4">
-                        <div class="linediv-c">
-                            <h3>€1000</h3> <p>of €120000</p>
+                </div>
+                <div class="row-fluid">
+                    <div class="span10 offset1">
+                        <!-- Bootstrap progress bar -->
+                        <!-- http://twitter.github.io/bootstrap/components.html#progress -->
+                        <div class="thermometer progress active">
+                            <div class="bar bar-success" style="width: 60%;"></div>
+                            <div class="bar bar-warning" style="width: 40%;"></div>
                         </div>
                     </div>
-                    <div class="span4">
-                        <div class="linediv-r">
-                            <h3>99</h3> <p>days left</p>
-                        </div>
+                </div>
+                <div class="row-fluid">
+                    <div class="span6 offset3 order">
+                        <!-- Standard Bootstrap button. -->
+                        <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
+                        <button class="btn btn-success btn-large">Preorder</button>
+                    </div>
+                </div>
+                <div class="row-fluid">
+                    <div class="span8 offset2 social">
+                        <!-- Social buttons are not included in default Bootstrap. -->
+                        <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
+                        <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
+                        <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
                     </div>
                 </div>
             </div>
-                <div class="row-fluid">
-            <div class="span10 offset1">
-                <!-- Bootstrap progress bar -->
-                <!-- http://twitter.github.io/bootstrap/components.html#progress -->
-                <div class="thermometer progress active">
-                    <div class="bar bar-success" style="width: 4%;"></div>
-                    <div class="bar bar-warning" style="width: 96%;"></div>
-                </div>
-            </div>
-                </div>
-                <div class="row-fluid">
-            <div class="span6 offset3 order">
-                <!-- Standard Bootstrap button. -->
-                <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
-                <button class="btn btn-success btn-large">Preorder</button>
-            </div>
-                </div>
-                <div class="row-fluid">
-            <div class="span8 offset2 social">
-                <!-- AddThis Button BEGIN -->
-                <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
-                    <a class="addthis_button_preferred_1"></a>
-                    <a class="addthis_button_preferred_2"></a>
-
-                    <a class="addthis_button_compact"></a>
-                    <a class="addthis_counter addthis_bubble_style"></a>
-                </div>
-                <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-                <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51feaf1d4b48fa88"></script>
-                <!-- AddThis Button END -->
-            </div>
-        </div>
-    </div>
         </div>
     </div>
 
@@ -227,7 +209,7 @@
     <!-- http://placehold.it -->
     <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-            <img class="img-polaroid"  alt="jet-placeholder" src="img/jet.png">
+            <img class="img-polaroid"  alt="Placeholder" src="http://placehold.it/480x300">
         </div>
         <div class="span5 copy">
             <p>
@@ -263,16 +245,14 @@
             </p>
         </div>
         <div class="span5 asset">
-            <img class="img-polaroid"  alt="boat-placeholder" src="img/boat.png">
+            <img class="img-polaroid"  alt="Placeholder" src="http://placehold.it/480x300">
         </div>
     </div>
-
-
 
     <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
     <!-- This brings in jquery.js and bootstrap.js as dependencies. -->
     <!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
-    <div id="faq" class="row-fluid faq">
+    <div class="row-fluid faq">
         <div class="span10 offset1">
             <h3>FAQ</h3>
             <div class="accordion" id="accordion2">
@@ -280,12 +260,12 @@
                     <div class="accordion-heading">
                         <a class="accordion-toggle" data-toggle="collapse"
                            data-parent="#accordion2" href="#collapseOne">
-                            justComeWithUs? What the heck?
+                            What does FAQ stand for?
                         </a>
                     </div>
                     <div id="collapseOne" class="accordion-body collapse">
                         <div class="accordion-inner">
-                            justComeWithUs is a seat-sharing platform.
+                            Frequently Asked Question.
                         </div>
                     </div>
                 </div>
@@ -293,28 +273,12 @@
                     <div class="accordion-heading">
                         <a class="accordion-toggle" data-toggle="collapse"
                            data-parent="#accordion2" href="#collapseTwo">
-                            Seat-sharing? What does that mean?
+                            What's a Frequently Asked Question?
                         </a>
                     </div>
                     <div id="collapseTwo" class="accordion-body collapse">
                         <div class="accordion-inner">
-                           That's easy.<br>Imagine, You are driving from Somecity to Elsecity by car and You have 3 seats left.
-                           Why don't You ask somebody to come with You and pay some fuel money (bitcoins).
-                        </div>
-                    </div>
-                </div><div class="accordion-group">
-                    <div class="accordion-heading">
-                        <a class="accordion-toggle" data-toggle="collapse"
-                           data-parent="#accordion2" href="#collapseThree">
-                            Thats all?
-                        </a>
-                    </div>
-                    <div id="collapseThree" class="accordion-body collapse">
-                        <div class="accordion-inner">
-                            Of course not.<br>
-                            Imagine you're flying with your jet from New York to Hawaii and still have seats available? Maybe someone wants to fly with.<br>
-                            Or you sail from Scotland to Oslo and have 1 or 2 bunks free?<br>
-                            Maybe someone hires and pays for Bitcoins single pair port charges
+                            A question which is commonly asked by users.
                         </div>
                     </div>
                 </div>

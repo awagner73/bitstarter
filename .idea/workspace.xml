@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/web.js" line="8" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c6761b-3010-43cf-a918-9c0259aae4ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f5c6761b-3010-43cf-a918-9c0259aae4ac" name="Default" comment="" />
     <ignored path="bitstarter.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="f5c6761b-3010-43cf-a918-9c0259aae4ac" time="1375646490371" ignored="false" />
